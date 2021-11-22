@@ -3,7 +3,7 @@
 
 ciphertext = ""
 
-for c in flag:
-    ciphertext += chr(ord(c) + 1)
+for char in flag:
+    ciphertext += chr(ord(char) + 1)
 
 # ciphertext = DUGJogpdpnn|epo(u`x4`m1wf`btd22~
