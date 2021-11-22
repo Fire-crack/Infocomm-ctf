@@ -36,6 +36,7 @@ def convert(letter):
         '0': ')',
         '1': '!',
         '2': '@',
+        '3': '#',
         '4': '$',
         '5': '%',
         '6': '^',
@@ -52,4 +53,6 @@ ciphertext = ""
 for char in flag:
     ciphertext += convert(char) + ' '
 
-# ciphertext = 3 20 6 9 14 6 15 3 15 13 13 ` 12 ) ) 16 19 - 1 18 5 - 1 13 1 26 9 14 7 + =
+
+print(ciphertext)
+# ciphertext = 3 20 6 9 14 6 15 3 15 13 13 ` + 4 9 3 20 19 - 1 18 # - 6 21 14 =
